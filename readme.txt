@@ -15,7 +15,4 @@ addPlugin('Yourls', array('shortenerName'=>'YOURLS','freeService'=>false,'servic
 
 4. Log in your status-net-Server, go to "Account/Other", choose "YOURLS" as your favourite shortener and have fun shortening. Status.net by now olny will shorten links if the status-notice including the url is greater than the allowed amount of chars to be sended (usually 140 chars).
 
-// YOURLS-Shortener-For-Status.net Plugin
-addPlugin('Yourls', array('shortenerName'=>'YOURLS','freeService'=>false,'serviceUrl'=>'http://your-yourls-installati.on/yourls-api.php?signature=your-secret-yourls-signature&action=shorturl&url=%1$s&format=json'));
-
 Tested with status.net 0.9.1 and yourls 1.4.3, as can be seen at http://s.wuerzblog.de
