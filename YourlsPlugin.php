@@ -27,7 +27,7 @@
  * @copyright 2010, Ralf Thees http://wuerzblog.de, 2009 Craig Andrews http://candrews.integralblue.com
  * @license   http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License version 3.0
  * @link      http://status.net/
- */
+*/
 
 if (!defined('STATUSNET') && !defined('LACONICA')) {
     exit(1);
@@ -35,7 +35,7 @@ if (!defined('STATUSNET') && !defined('LACONICA')) {
 
 require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
 
-class WueInPlugin extends UrlShortenerPlugin
+class YourlsPlugin extends UrlShortenerPlugin
 {
     public $serviceUrl;
 
