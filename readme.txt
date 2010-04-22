@@ -4,7 +4,7 @@ See: * http://status.net
 
 == Installation ==
 
-1 .Upload the YourlsPlugin.php in the plugin-folder of your status.net-installation.
+1. Upload the YourlsPlugin.php in the plugin-folder of your status.net-installation.
 
 2. Modify the following lines by replacing "your-yourls-installati.on" with URL of your YOURLS-installation and replace "your-secret-yourls-signature" with the signature of your YOURLS-installation, which you can found in the tools-section in your admin-backend.
 
