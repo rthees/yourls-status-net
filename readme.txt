@@ -1,11 +1,8 @@
 ######### ADDENDUM FROM TONY BALDWIN ###########
 
 This plugin is two years old, and built to work with old Laconica code.
-It needs a work-over.
-I have several yourls installations, and have adminned two statusnets and two friendicas,
-the friendicas having working yourls plugins.
-So, I'm going to try and rework this.
-But not today.
+Changing one line made it work again.
+(just the location of urlshortenerplugin.php had changed).
 
 tony 
 tony@tonybaldwin.me/status/

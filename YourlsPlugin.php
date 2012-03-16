@@ -33,13 +33,8 @@ if (!defined('STATUSNET') && !defined('LACONICA')) {
     exit(1);
 }
 
-// there is no /plugins/UrlShorterner/ in current statusnet code
-// I need to dig up that old code and see what it does, and possibly
-// include it here, or something.
-// this following line no longer works.
-
 //require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
-// it has been moved:
+// was been moved, this is the only change I made (tonybaldwin)
 require_once INSTALLDIR.'/lib/urlshortenerplugin.php';
 
 class YourlsPlugin extends UrlShortenerPlugin
