@@ -39,6 +39,8 @@ if (!defined('STATUSNET') && !defined('LACONICA')) {
 // this following line no longer works.
 
 //require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
+// it has been moved:
+require_once INSTALLDIR.'/lib/urlshortenerplugin.php';
 
 class YourlsPlugin extends UrlShortenerPlugin
 {
