@@ -1,13 +1,3 @@
-######### ADDENDUM FROM TONY BALDWIN ###########
-
-This plugin is two years old, and built to work with old Laconica code.
-Changing one line made it work again.
-(just the location of urlshortenerplugin.php had changed).
-
-tony 
-tony@tonybaldwin.me/status/
-tony@free-haven.org
-http://tonybaldwin.me
 
 ######## ORIGINAL README FOLLOWS ###########
 
@@ -29,3 +19,16 @@ addPlugin('Yourls', array('shortenerName'=>'YOURLS','freeService'=>false,'servic
 4. Log in your status-net-Server, go to "Account/Other", choose "YOURLS" as your favourite shortener and have fun shortening. Status.net by now olny will shorten links if the status-notice including the url is greater than the allowed amount of chars to be sended (usually 140 chars).
 
 Tested with status.net 0.9.1/0.9.2 and yourls 1.4.3, as can be seen at http://s.wuerzblog.de
+
+######### ADDENDUM FROM TONY BALDWIN ###########
+
+This plugin was two years old, and built to work with old Laconica code.
+Changing one line made it work again.
+(just the location of urlshortenerplugin.php had changed).
+
+As of 2012.03.16 Also tested with current Status.Net code
+version 1.0.1, up to date, and pulled TODAY (2012.03.16) from gitorious,
+and Yourls v.1.5
+
+tony 
+http://tonybaldwin.me
