@@ -1,3 +1,19 @@
+######### ADDENDUM FROM TONY BALDWIN ###########
+
+This plugin is two years old, and built to work with old Laconica code.
+It needs a work-over.
+I have several yourls installations, and have adminned two statusnets and two friendicas,
+the friendicas having working yourls plugins.
+So, I'm going to try and rework this.
+But not today.
+
+tony 
+tony@tonybaldwin.me/status/
+tony@free-haven.org
+http://tonybaldwin.me
+
+######## ORIGINAL README FOLLOWS ###########
+
 This plugin was developed for the use with a status.net-installation and a accessable yourls-shortener-installation.
 See: * http://status.net
      * http://yourls.org
