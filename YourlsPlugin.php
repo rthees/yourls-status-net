@@ -33,8 +33,8 @@ if (!defined('STATUSNET') && !defined('LACONICA')) {
     exit(1);
 }
 
-//require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
-// was been moved, this is the only change I made (tonybaldwin)
+// OLD LINE: require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
+// that was moved; this is the only change I made (tonybaldwin)
 require_once INSTALLDIR.'/lib/urlshortenerplugin.php';
 
 class YourlsPlugin extends UrlShortenerPlugin
