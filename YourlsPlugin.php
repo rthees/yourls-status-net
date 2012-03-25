@@ -23,8 +23,8 @@
  * 
  * @category  Plugin
  * @package   StatusNet
- * @author    Ralf Thees <ralf@wuerzblog.de>, Craig Andrews <candrews@integralblue.com>
- * @copyright 2010, Ralf Thees http://wuerzblog.de, 2009 Craig Andrews http://candrews.integralblue.com
+ * @author    Ralf Thees <ralf@wuerzblog.de>, Craig Andrews <candrews@integralblue.com>, Tony Baldwin <tony@tonybaldwin.me/status>
+ * @copyright 2010, Ralf Thees http://wuerzblog.de, 2009 Craig Andrews http://candrews.integralblue.com, 2012, Tony Baldwin http://tonybaldwin.me
  * @license   http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License version 3.0
  * @link      http://status.net/
 */
@@ -33,7 +33,9 @@ if (!defined('STATUSNET') && !defined('LACONICA')) {
     exit(1);
 }
 
-require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
+// OLD LINE: require_once INSTALLDIR.'/plugins/UrlShortener/UrlShortenerPlugin.php';
+// that was moved; this is the only change I made (tonybaldwin)
+require_once INSTALLDIR.'/lib/urlshortenerplugin.php';
 
 class YourlsPlugin extends UrlShortenerPlugin
 {
